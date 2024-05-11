@@ -1,0 +1,29 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+#quiz-container {
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+#answers li {
+    list-style-type: none;
+    padding: 8px;
+    background-color: #f0f0f0;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#answers li:hover {
+    background-color: #ddd;
+}
